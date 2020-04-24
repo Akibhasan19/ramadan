@@ -1,0 +1,165 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav ul {
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    width: 100%;
+  }
+  #dua{
+      padding-top: 50px;
+  }
+  li {
+    display: inline-block;
+  }
+  li a {
+    display: block;
+    color: white;
+    
+    padding: 20px 50px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  .box{
+      width: 100%;
+      height: 700px;
+
+  }
+  .title{
+    color: #000;
+    padding-top: 30px;
+}
+  table{
+    align-content: center;
+    table-layout: fixed;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+th{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  tr:nth-child(odd){background-color: #d1cbcb}
+  tr:nth-child(even){color: #111;}{background-color: #000}
+
+th {
+  background-color: rgb(5, 5, 34);
+  color: white;
+}
+.card-body{
+    
+}
+.carusel img{
+    height: 500px;
+}
+section{
+    height: 700px;
+    padding-top: 15px;
+    padding-bottom: 200px;
+}
+.dua{
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+span{
+    color: rgb(20, 20, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+.experience-area{
+    text-align: justify;
+}
+@media only screen and (max-width: 400px) {
+    table {
+      width: 100%;
+    }
+    .head{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    th{
+        font-size: 10px;
+    }
+    tr{
+        font-size: 10px;
+    }
+    .nav ul{
+        width: 100%;
+        
+    }
+    li {
+        display: inline-block;
+      }
+      li a {
+        display: block;
+        color: white;
+        
+        padding: 2px 8px;
+        text-decoration: none;
+      }
+    .carusel img{
+        height: 100px;
+        width: 100%;
+    }
+    #dua{
+        padding-top: 10px;
+    }
+    .dua{
+        text-align: center;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    .half-width{
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+    }
+    span{
+        color: rgb(20, 20, 0);
+        font-size: 20px;
+        font-weight: bold;
+    }
+  }
